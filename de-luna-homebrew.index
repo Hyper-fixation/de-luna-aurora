@@ -1,16 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <index>
-	<info>
-		<name>De Luna Homebrew</name>
-		<description>Homebrew Aurora content for the De Luna family.</description>
-		<author>Homebrew</author>
+    <info>
+        <name>De Luna Homebrew</name>
+        <description>Homebrew Aurora content for the De Luna family.</description>
+        <author>Homebrew</author>
 
-		<update version="1.0.2">
-			<file
-				name="de-luna-homebrew.index"
-				url="https://raw.githubusercontent.com/Hyper-fixation/de-luna-aurora/main/de-luna-homebrew.index"
-			/>
-		</update>
-	</info>
+        <update version="1.0.3">
+            <file
+                name="de-luna-homebrew.index"
+                url="https://raw.githubusercontent.com/Hyper-fixation/de-luna-aurora/main/de-luna-homebrew.index"
+            />
+        </update>
+    </info>
 
 	<files>
 		<file
