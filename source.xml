@@ -3,8 +3,9 @@
         <name>De Luna Homebrew Source</name>
         <description>Source definition for De Luna homebrew content.</description>
         <author>Homebrew</author>
-        <update version="1.0.1">
-            <file name="source.xml" url="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPOSITORY/main/source.xml" />
+        <update version="1.0.2">
+            <file name="source.xml"
+                  url="https://raw.githubusercontent.com/Hyper-fixation/de-luna-aurora/main/source.xml" />
         </update>
     </info>
 
