@@ -3,6 +3,9 @@
         <name>Aeternus Nox</name>
         <description>A homebrew artifact weapon for a 2024 Soulknife Rogue.</description>
         <author>Homebrew</author>
+        <update version="1.0.1">
+            <file name="aeternus-nox.xml" url="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPOSITORY/main/aeternus-nox.xml" />
+        </update>
     </info>
 
     <element name="Aeternus Nox — The Crescent Blade" type="Weapon" source="De Luna Homebrew" id="ID_HOMEBREW_WEAPON_AETERNUS_NOX">
