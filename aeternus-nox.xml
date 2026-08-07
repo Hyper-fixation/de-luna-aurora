@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Aeternus Nox</name>
@@ -17,7 +16,7 @@
 		</setters>
 	</element>
 
-	<element name="Aeternus Nox — The Crescent Blade" type="Weapon" source="De Luna Homebrew" id="ID_HOMEBREW_WEAPON_AETERNUS_NOX">
+	<element name="Aeternus Nox - The Crescent Blade" type="Weapon" source="De Luna Homebrew" id="ID_HOMEBREW_WEAPON_AETERNUS_NOX">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PSYCHIC, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_WOTC_PHB24_WEAPON_PROPERTY_NICK</supports>
 		<description>
 			<p><em>Weapon (dagger), artifact (requires attunement by an Elf of the De Luna family)</em></p>
@@ -53,7 +52,7 @@
 		</rules>
 	</element>
 
-	<element name="Aeternus Nox — Second Blade" type="Weapon" source="De Luna Homebrew" id="ID_HOMEBREW_WEAPON_AETERNUS_NOX_SECOND_BLADE">
+	<element name="Aeternus Nox - Second Blade" type="Weapon" source="De Luna Homebrew" id="ID_HOMEBREW_WEAPON_AETERNUS_NOX_SECOND_BLADE">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PSYCHIC, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_WOTC_PHB24_WEAPON_PROPERTY_NICK</supports>
 		<description>
 			<p>This entry represents the second psychic blade created by Purga's Hand.</p>
