@@ -1,17 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
 		<name>De Luna Homebrew</name>
-		<description>Homebrew content for the De Luna family.</description>
-		<author>Your Name</author>
+		<description>Homebrew Aurora content for the De Luna family.</description>
+		<author>Homebrew</author>
+
 		<update version="1.0.0">
-			<file name="de-luna-homebrew.index"
-				  url="RAW-URL-TO-YOUR-de-luna-homebrew.index" />
+			<file
+				name="de-luna-homebrew.index"
+				url="https://raw.githubusercontent.com/Hyper-fixation/de-luna-aurora/main/de-luna-homebrew.index"
+			/>
 		</update>
 	</info>
 
 	<files>
-		<file name="aeternus-nox.xml"
-			  url="RAW-URL-TO-YOUR-aeternus-nox.xml" />
+		<file
+			name="source.xml"
+			url="https://raw.githubusercontent.com/Hyper-fixation/de-luna-aurora/main/source.xml"
+		/>
+
+		<file
+			name="aeternus-nox.xml"
+			url="https://raw.githubusercontent.com/Hyper-fixation/de-luna-aurora/main/aeternus-nox.xml"
+		/>
 	</files>
 </index>
