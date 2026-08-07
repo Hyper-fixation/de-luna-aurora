@@ -4,7 +4,7 @@
 		<description>Homebrew Aurora content for the De Luna family.</description>
 		<author>Homebrew</author>
 
-		<update version="1.0.0">
+		<update version="1.0.2">
 			<file
 				name="de-luna-homebrew.index"
 				url="https://raw.githubusercontent.com/Hyper-fixation/de-luna-aurora/main/de-luna-homebrew.index"
