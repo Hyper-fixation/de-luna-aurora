@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>De Luna Homebrew</name>
+		<description>Homebrew content for the De Luna family.</description>
+		<author>Your Name</author>
+		<update version="1.0.0">
+			<file name="de-luna-homebrew.index"
+				  url="RAW-URL-TO-YOUR-de-luna-homebrew.index" />
+		</update>
+	</info>
+
+	<files>
+		<file name="aeternus-nox.xml"
+			  url="RAW-URL-TO-YOUR-aeternus-nox.xml" />
+	</files>
+</index>
