@@ -1,14 +1,18 @@
 <elements>
-	<element
-		name="De Luna Homebrew"
-		type="Source"
-		source="Core"
-		id="ID_HOMEBREW_SOURCE_DE_LUNA">
-		<description>
-			<p>Homebrew content for Cassian De Luna.</p>
-		</description>
-		<setters>
-			<set name="abbreviation">DLH</set>
-		</setters>
-	</element>
+    <info>
+        <name>De Luna Homebrew Source</name>
+        <description>Source definition for De Luna homebrew content.</description>
+        <author>Homebrew</author>
+    </info>
+
+    <element name="De Luna Homebrew" type="Source" source="Core" id="ID_HOMEBREW_SOURCE_DE_LUNA">
+        <description>
+            <p>Homebrew content for the De Luna family.</p>
+        </description>
+        <setters>
+            <set name="abbreviation">DLH</set>
+            <set name="author">Homebrew</set>
+            <set name="third-party">true</set>
+        </setters>
+    </element>
 </elements>
