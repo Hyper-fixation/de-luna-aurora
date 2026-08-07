@@ -3,6 +3,9 @@
         <name>De Luna Homebrew Source</name>
         <description>Source definition for De Luna homebrew content.</description>
         <author>Homebrew</author>
+        <update version="1.0.1">
+            <file name="source.xml" url="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPOSITORY/main/source.xml" />
+        </update>
     </info>
 
     <element name="De Luna Homebrew" type="Source" source="Core" id="ID_HOMEBREW_SOURCE_DE_LUNA">
