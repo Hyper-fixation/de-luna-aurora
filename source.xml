@@ -1,12 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
         <name>De Luna Homebrew Source</name>
         <description>Source definition for De Luna homebrew content.</description>
         <author>Homebrew</author>
-        <update version="1.0.2">
-            <file name="source.xml"
-                  url="https://raw.githubusercontent.com/Hyper-fixation/de-luna-aurora/main/source.xml" />
-        </update>
     </info>
 
     <element name="De Luna Homebrew" type="Source" source="Core" id="ID_HOMEBREW_SOURCE_DE_LUNA">
