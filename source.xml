@@ -6,14 +6,30 @@
         <author>Homebrew</author>
     </info>
 
-    <element name="De Luna Homebrew" type="Source" source="Core" id="ID_HOMEBREW_SOURCE_DE_LUNA">
+    <element name="De Luna Homebrew"
+             type="Source"
+             source="Core"
+             id="ID_HOMEBREW_SOURCE_DE_LUNA">
+
         <description>
             <p>Homebrew content for the De Luna family.</p>
         </description>
+
         <setters>
             <set name="abbreviation">DLH</set>
-            <set name="author">Homebrew</set>
+
+            <set name="url">
+                https://github.com/Hyper-fixation/de-luna-aurora
+            </set>
+
+            <set name="author"
+                 abbreviation="HOME"
+                 url="https://github.com/Hyper-fixation">
+                Homebrew
+            </set>
+
             <set name="third-party">true</set>
         </setters>
+
     </element>
 </elements>
