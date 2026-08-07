@@ -1,77 +1,71 @@
 <elements>
-	<info>
-		<name>Aeternus Nox</name>
-		<description>A homebrew artifact weapon for a 2024 Soulknife Rogue.</description>
-		<author>Homebrew</author>
-	</info>
+    <info>
+        <name>Aeternus Nox</name>
+        <description>A homebrew artifact weapon for a 2024 Soulknife Rogue.</description>
+        <author>Homebrew</author>
+    </info>
 
-	<element name="De Luna Homebrew" type="Source" source="Core" id="ID_HOMEBREW_SOURCE_DE_LUNA">
-		<description>
-			<p>Homebrew content associated with the De Luna family.</p>
-		</description>
-		<setters>
-			<set name="abbreviation">DLH</set>
-			<set name="author">Homebrew</set>
-			<set name="third-party">true</set>
-		</setters>
-	</element>
+    <element name="Aeternus Nox — The Crescent Blade" type="Weapon" source="De Luna Homebrew" id="ID_HOMEBREW_WEAPON_AETERNUS_NOX">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PSYCHIC, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_WOTC_PHB24_WEAPON_PROPERTY_NICK</supports>
+        <description>
+            <p><em>Weapon (dagger), artifact (requires attunement by an Elf of the De Luna family)</em></p>
+            <p>The twin moons of Iria have battled since ancient times. After a devastating collision broke a piece from Purga, the moon bestowed the fragment and the De Luna name upon the family's first head. The blade passed to a new family member after every collision until it reached Cassian.</p>
+            <p>You have a +2 bonus to attack and damage rolls made with this magic weapon.</p>
 
-	<element name="Aeternus Nox - The Crescent Blade" type="Weapon" source="De Luna Homebrew" id="ID_HOMEBREW_WEAPON_AETERNUS_NOX">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PSYCHIC, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_WOTC_PHB24_WEAPON_PROPERTY_NICK</supports>
-		<description>
-			<p><em>Weapon (dagger), artifact (requires attunement by an Elf of the De Luna family)</em></p>
-			<p>The twin moons of Iria have battled since ancient times. After a devastating collision broke a piece from Purga, the moon bestowed the fragment and the De Luna name upon the family's first head. The blade passed to a new family member after every collision until it reached Cassian.</p>
-			<p>You have a +2 bonus to attack and damage rolls made with this magic weapon.</p>
-			<h5>Sentience</h5>
-			<p>Aeternus Nox is a lawful neutral sentient weapon with Intelligence 22, Wisdom 24, and Charisma 22. It has hearing and darkvision out to 120 feet. It communicates telepathically with its wielder and can speak, read, and understand Elvish and Common.</p>
-			<h5>Personality</h5>
-			<p>A loyal spirit named Nox resides within the Crescent Blade. Nox aids its attuned wielder's goals, retains scattered memories of previous wielders, and offers advice when asked. It prefers defence and counsel but accepts that different times call for different measures.</p>
-			<h5>Purga's Hand</h5>
-			<p>You may replace your Psychic Blade with this weapon. The first attack deals 1d10 psychic damage plus the ability modifier used for the attack roll.</p>
-			<p>After you attack with the blade, you can make a melee or ranged weapon attack with a second blade on the same turn, provided your other hand is free to create it. The second blade deals 1d8 psychic damage plus the ability modifier used for the attack roll.</p>
-			<h5>Ancient Mind</h5>
-			<p>You have 3 additional Psionic Energy Dice while attuned to this weapon. While holding it, you may cast <em>darkness</em> or <em>moonbeam</em> (save DC 14) by expending 3 Psionic Energy Dice, or <em>disguise self</em> by expending 2 Psionic Energy Dice.</p>
-			<div class="sidebar" style="margin-top:10px">
-				<h5>MASTERY</h5>
-				<p><b>Nick.</b> When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.</p>
-			</div>
-		</description>
-		<setters>
-			<set name="keywords">dagger, artifact, soulknife, psychic blade, crescent blade</set>
-			<set name="category">Weapons</set>
-			<set name="damage" type="psychic">1d10</set>
-			<set name="range">60/120</set>
-			<set name="weight" lb="1">1 lb.</set>
-			<set name="cost" currency="gp">0</set>
-			<set name="slot">onehand</set>
-			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
-			<set name="enhancement">2</set>
-		</setters>
-		<rules>
-			<stat name="soulknife:psionic-energy-die:number" value="3" bonus="aeternus-nox" />
-		</rules>
-	</element>
+            <h5>Sentience</h5>
+            <p>Aeternus Nox is a lawful neutral sentient weapon with Intelligence 22, Wisdom 24, and Charisma 22. It has hearing and darkvision out to 120 feet. It communicates telepathically with its wielder and can speak, read, and understand Elvish and Common.</p>
 
-	<element name="Aeternus Nox - Second Blade" type="Weapon" source="De Luna Homebrew" id="ID_HOMEBREW_WEAPON_AETERNUS_NOX_SECOND_BLADE">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PSYCHIC, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_WOTC_PHB24_WEAPON_PROPERTY_NICK</supports>
-		<description>
-			<p>This entry represents the second psychic blade created by Purga's Hand.</p>
-			<p>After attacking with Aeternus Nox on your turn, you can make a melee or ranged attack with this blade, provided your other hand is free to create it. It deals 1d8 psychic damage plus the ability modifier used for the attack roll and receives the weapon's +2 bonus to attack and damage rolls.</p>
-			<div class="sidebar" style="margin-top:10px">
-				<h5>MASTERY</h5>
-				<p><b>Nick.</b> When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.</p>
-			</div>
-		</description>
-		<setters>
-			<set name="keywords">dagger, soulknife, psychic blade, second blade</set>
-			<set name="category">Weapons</set>
-			<set name="damage" type="psychic">1d8</set>
-			<set name="range">60/120</set>
-			<set name="weight" lb="0">—</set>
-			<set name="cost" currency="gp">0</set>
-			<set name="slot">onehand</set>
-			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
-			<set name="enhancement">2</set>
-		</setters>
-	</element>
+            <h5>Personality</h5>
+            <p>A loyal spirit named Nox resides within the Crescent Blade. Nox aids its attuned wielder's goals, retains scattered memories of previous wielders, and offers advice when asked. It prefers defence and counsel but accepts that different times call for different measures.</p>
+
+            <h5>Purga's Hand</h5>
+            <p>You may replace your Psychic Blade with this weapon. The first attack deals 1d10 psychic damage plus the ability modifier used for the attack roll.</p>
+            <p>After you attack with the blade, you can make a melee or ranged weapon attack with a second blade on the same turn, provided your other hand is free to create it. The second blade deals 1d8 psychic damage plus the ability modifier used for the attack roll.</p>
+
+            <h5>Ancient Mind</h5>
+            <p>You have 3 additional Psionic Energy Dice while attuned to this weapon. While holding it, you may cast <em>darkness</em> or <em>moonbeam</em> (save DC 14) by expending 3 Psionic Energy Dice, or <em>disguise self</em> by expending 2 Psionic Energy Dice.</p>
+
+            <div class="sidebar" style="margin-top:10px">
+                <h5>MASTERY</h5>
+                <p><b>Nick.</b> When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.</p>
+            </div>
+        </description>
+        <setters>
+            <set name="keywords">dagger, artifact, soulknife, psychic blade, crescent blade</set>
+            <set name="category">Weapons</set>
+            <set name="damage" type="psychic">1d10</set>
+            <set name="range">60/120</set>
+            <set name="weight" lb="1">1 lb.</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="slot">onehand</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+            <set name="enhancement">2</set>
+        </setters>
+        <rules>
+            <stat name="soulknife:psionic-energy-die:number" value="3" bonus="aeternus-nox" />
+        </rules>
+    </element>
+
+    <element name="Aeternus Nox — Second Blade" type="Weapon" source="De Luna Homebrew" id="ID_HOMEBREW_WEAPON_AETERNUS_NOX_SECOND_BLADE">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PSYCHIC, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_WOTC_PHB24_WEAPON_PROPERTY_NICK</supports>
+        <description>
+            <p>This entry represents the second psychic blade created by Purga's Hand.</p>
+            <p>After attacking with Aeternus Nox on your turn, you can make a melee or ranged attack with this blade, provided your other hand is free to create it. It deals 1d8 psychic damage plus the ability modifier used for the attack roll and receives the weapon's +2 bonus to attack and damage rolls.</p>
+            <div class="sidebar" style="margin-top:10px">
+                <h5>MASTERY</h5>
+                <p><b>Nick.</b> When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.</p>
+            </div>
+        </description>
+        <setters>
+            <set name="keywords">dagger, soulknife, psychic blade, second blade</set>
+            <set name="category">Weapons</set>
+            <set name="damage" type="psychic">1d8</set>
+            <set name="range">60/120</set>
+            <set name="weight" lb="0">—</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="slot">onehand</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+            <set name="enhancement">2</set>
+        </setters>
+    </element>
 </elements>
